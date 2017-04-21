@@ -63,7 +63,7 @@ class Vegetable < FoodStuff
 	end
 
 	def info
-		puts "#{self.price}円の#{self.area}産#{self.name}を商品買い物カゴに入れました。"
+		puts "#{self.price}円の#{self.area}産#{self.name}を買い物カゴに入れました。"
 	end
 end
 
